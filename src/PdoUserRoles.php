@@ -37,7 +37,7 @@ class PdoUserRoles
 
     /**
      * @param  int   $user_id User ID
-     * @return array Array of Role IDs
+     * @return int[] Array of Role IDs
      */
     public function __invoke( $user_id ) {
         $result = $this->stmt->execute([
