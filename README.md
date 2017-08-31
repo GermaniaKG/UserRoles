@@ -1,4 +1,4 @@
-# Germania\UserRoles
+# Germania KG · UserRoles
 
 This package is distilled from legacy code. You certainly will not want to use this your production code.
 
