@@ -54,26 +54,31 @@ $roles_array = $roles_finder( $user_id );
 
 ```
 
+## Issues
+
+- *user_id* column name in SQL still is *client_id*. This is legacy and subject to change in upcoming major versions. Discuss at [issue #1][i1].
+
+Also see [full issues list.][i0]
+
+[i0]: https://github.com/GermaniaKG/UserRoles/issues 
+[i1]: https://github.com/GermaniaKG/UserRoles/issues/1 
+
+
+
 ## Development
 
-Grab your clone and install PHPUnit and stuff:
-
-```bash:
+```bash
 $ git clone https://github.com/GermaniaKG/UserRoles.git germania-userroles
 $ cd germania-userroles
 $ composer install
 ```
 
+## Unit tests
 
-## Testing
+Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. 
+Run [PhpUnit](https://phpunit.de/) like this:
 
-- Copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs.
+```bash
+$ vendor/bin/phpunit
+```
 
-- In project root, run `phpunit`
-
-- Have a look into *tests/src* directory.
-
-
-## TODO
-
-• *user_id* column name in SQL still is *client_id*. This is legacy and subject to change in upcoming major versions.
