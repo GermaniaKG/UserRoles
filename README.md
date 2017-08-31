@@ -1,9 +1,9 @@
-#Germania\UserRoles
+# Germania\UserRoles
 
 
 This package is distilled from legacy code. You certainly will not want to use this your production code.
 
-##Installation
+## Installation
 
 Setup MySQL database with table creation listing in  `sql/users_roles.sql.txt`. Use Composer for PHP:
 
@@ -13,7 +13,7 @@ $ composer require germania-kg/user-roles
 
 
 
-##Assign a user ID to a single role ID:
+## Assign a user ID to a single role ID:
 
 
 
@@ -35,7 +35,7 @@ $assigner( $user_id, 10);  // e.g. Sales people
 ```
 
 
-##Retrieve user's role IDs
+## Retrieve user's role IDs
 
 Retrieve an array containing role IDs for the given user.
 
@@ -54,7 +54,7 @@ $roles_array = $roles_finder( $user_id );
 
 ```
 
-##Development
+## Development
 
 Grab your clone and install PHPUnit and stuff:
 
@@ -65,7 +65,7 @@ $ composer install
 ```
 
 
-##Testing
+## Testing
 
 - Copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs.
 
@@ -74,6 +74,6 @@ $ composer install
 - Have a look into *tests/src* directory.
 
 
-##TODO
+## TODO
 
 • *user_id* column name in SQL still is *client_id*. This is legacy and subject to change in upcoming major versions.
