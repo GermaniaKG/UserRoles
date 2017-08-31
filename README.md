@@ -1,7 +1,12 @@
 # Germania\UserRoles
 
-
 This package is distilled from legacy code. You certainly will not want to use this your production code.
+
+[![Build Status](https://travis-ci.org/GermaniaKG/UserRoles.svg?branch=master)](https://travis-ci.org/GermaniaKG/UserRoles)
+[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/build-status/master)
+
 
 ## Installation
 
