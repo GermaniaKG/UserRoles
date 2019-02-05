@@ -2,7 +2,7 @@
 
 This package is distilled from legacy code. You certainly will not want to use this your production code.
 
-[![PHP version](https://img.shields.io/packagist/php-v/germania-kg/germania-kg/user-roles.svg)](https://packagist.org/packages/germania-kg/germania-kg/user-roles)
+[![PHP version](https://img.shields.io/packagist/php-v/germania-kg/user-roles.svg)](https://packagist.org/packages/germania-kg/user-roles)
 [![Build Status](https://img.shields.io/travis/GermaniaKG/UserRoles.svg?label=Travis%20CI)](https://travis-ci.org/GermaniaKG/UserRoles)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/?branch=master)
