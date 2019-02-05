@@ -5,7 +5,7 @@ use Germania\UserRoles\Providers\PimpleServiceProvider;
 use Pimple\ServiceProviderInterface;
 use Pimple\Container;
 
-class PimpleServiceProviderTest extends \PHPUnit_Framework_TestCase
+class PimpleServiceProviderTest extends \PHPUnit\Framework\TestCase
 {
     public function testRegisteringServiceProvider()
     {

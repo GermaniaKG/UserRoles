@@ -5,7 +5,7 @@ use Germania\UserRoles\PdoAssignUserToRole;
 use Prophecy\Argument;
 use Psr\Log\NullLogger;
 
-class PdoAssignUserToRoleTest extends \PHPUnit_Framework_TestCase
+class PdoAssignUserToRoleTest extends \PHPUnit\Framework\TestCase
 {
 
     public $logger;

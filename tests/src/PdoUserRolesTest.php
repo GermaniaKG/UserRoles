@@ -4,7 +4,7 @@ namespace tests;
 use Germania\UserRoles\PdoUserRoles;
 use Prophecy\Argument;
 
-class PdoUserRolesTest extends \PHPUnit_Framework_TestCase
+class PdoUserRolesTest extends \PHPUnit\Framework\TestCase
 {
 
     /**

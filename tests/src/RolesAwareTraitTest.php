@@ -3,7 +3,7 @@ namespace tests;
 
 use Germania\UserRoles\RolesAwareTrait;
 
-class RolesAwareTraitTest extends \PHPUnit_Framework_TestCase
+class RolesAwareTraitTest extends \PHPUnit\Framework\TestCase
 {
 
     /**
