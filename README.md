@@ -2,10 +2,12 @@
 
 This package is distilled from legacy code. You certainly will not want to use this your production code.
 
-[![Build Status](https://travis-ci.org/GermaniaKG/UserRoles.svg?branch=master)](https://travis-ci.org/GermaniaKG/UserRoles)
-[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/?branch=master)
+[![PHP version](https://img.shields.io/packagist/php-v/germania-kg/germania-kg/user-roles.svg)](https://packagist.org/packages/germania-kg/germania-kg/user-roles)
+[![Build Status](https://img.shields.io/travis/GermaniaKG/UserRoles.svg?label=Travis%20CI)](https://travis-ci.org/GermaniaKG/UserRoles)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/build-status/master)
+
 
 
 ## Installation
@@ -68,22 +70,20 @@ Also see [full issues list.][i0]
 [i0]: https://github.com/GermaniaKG/UserRoles/issues 
 [i1]: https://github.com/GermaniaKG/UserRoles/issues/1 
 
-
-
 ## Development
 
 ```bash
-$ git clone https://github.com/GermaniaKG/UserRoles.git germania-userroles
-$ cd germania-userroles
+$ git clone https://github.com/GermaniaKG/UserRoles.git
+$ cd UserRoles
 $ composer install
 ```
 
 ## Unit tests
 
-Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. 
-Run [PhpUnit](https://phpunit.de/) like this:
+Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. Run [PhpUnit](https://phpunit.de/) test or composer scripts like this:
 
 ```bash
+$ composer test
+# or
 $ vendor/bin/phpunit
 ```
-
