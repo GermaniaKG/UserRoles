@@ -1,47 +1,48 @@
 {
-	"name": "germania-kg/user-roles",
+    "name": "germania-kg/user-roles",
 
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Carsten Witt",
-			"email": "carstenwitt@germania-kg.de",
-			"role": "Developer"
-		}
-	],
-	"autoload": {
-		"psr-4": {
-			"Germania\\UserRoles\\": "src/"
-		}
-	},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carsten Witt",
+            "email": "carstenwitt@germania-kg.de",
+            "role": "Developer"
+        }
+    ],
 
-  "autoload-dev": {
-      "psr-4": {
-      	"tests\\": "tests/src"
-      }
-  },
+    "autoload": {
+        "psr-4": {
+            "Germania\\UserRoles\\": "src/"
+        }
+    },
 
-	"require": {
-		"php": "^5.6|^7.0",
-		"psr/log": "^1.0"
-	},
+    "autoload-dev": {
+          "psr-4": {
+                "tests\\": "tests/src"
+          }
+    },
 
-	"require-dev": {
-		"satooshi/php-coveralls": "^1.0",
-		"phpunit/phpunit": "^5.5",
-		"phpunit/dbunit": "^1.2",
-		"pimple/pimple": "^3.2"
-	},
+    "require": {
+        "php": "^5.6|^7.0",
+        "psr/log": "^1.0"
+    },
 
-	"suggest": {
-    "pimple/pimple": "This package provides a Pimple ServiceProvider"
-  },
+    "require-dev": {
+        "satooshi/php-coveralls": "^1.0",
+        "phpunit/phpunit": "^5.5",
+        "phpunit/dbunit": "^1.2",
+        "pimple/pimple": "^3.2"
+    },
 
-  "scripts": {
- 		"phpunit": "phpunit",
+    "suggest": {
+        "pimple/pimple": "This package provides a Pimple ServiceProvider"
+    },
 
-    "test": [
-        "@phpunit"
-		]
-	}
+    "scripts": {
+        "phpunit": "phpunit",
+
+        "test": [
+            "@phpunit"
+        ]
+    }
 }
