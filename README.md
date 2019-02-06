@@ -2,6 +2,7 @@
 
 This package is distilled from legacy code. You certainly will not want to use this your production code.
 
+[![Packagist](https://img.shields.io/packagist/v/germania-kg/user-roles.svg?style=flat)](https://packagist.org/packages/germania-kg/user-roles)
 [![PHP version](https://img.shields.io/packagist/php-v/germania-kg/user-roles.svg)](https://packagist.org/packages/germania-kg/user-roles)
 [![Build Status](https://img.shields.io/travis/GermaniaKG/UserRoles.svg?label=Travis%20CI)](https://travis-ci.org/GermaniaKG/UserRoles)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UserRoles/?branch=master)
@@ -67,8 +68,8 @@ $roles_array = $roles_finder( $user_id );
 
 Also see [full issues list.][i0]
 
-[i0]: https://github.com/GermaniaKG/UserRoles/issues 
-[i1]: https://github.com/GermaniaKG/UserRoles/issues/1 
+[i0]: https://github.com/GermaniaKG/UserRoles/issues
+[i1]: https://github.com/GermaniaKG/UserRoles/issues/1
 
 ## Development
 
