@@ -6,13 +6,7 @@ build:
         before:
             - rm composer.lock
 
-    services:
-        mysql: 5.7
-
     tests:
-        before:
-            - mysql -h 127.0.0.1 -u root -e 'create database test'
-
         override:
             -
                 command: 'vendor/bin/phpunit --coverage-clover=coverage'
@@ -22,9 +16,13 @@ build:
 
     nodes:
 
+        php56:
+            environment:
+                php: 5.6
+
         php70:
             environment:
-                php: 7.0.20
+                php: 7.0
 
         php71:
             environment:
@@ -33,7 +31,6 @@ build:
         php72:
             environment:
                 php: 7.2
-
 
         php73:
             environment:
@@ -48,3 +45,4 @@ checks:
 filter:
     excluded_paths:
         - tests/*
+

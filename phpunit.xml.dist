@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <phpunit colors="true"
-		 stopOnFailure="true"
-		 bootstrap="tests/bootstrap.php"
-		 beStrictAboutCoversAnnotation="true"
-		 verbose="true">
+         stopOnFailure="true"
+         bootstrap="tests/bootstrap.php"
+         beStrictAboutCoversAnnotation="true"
+         verbose="true">
 
 	<testsuites>
 		<testsuite name="Test Suite">
@@ -18,17 +18,10 @@
 		</whitelist>
 	</filter>
 
-	<php>
-		<var name="DB_DSN"    value="any_database_dsn" />
-		<var name="DB_USER"   value="username" />
-		<var name="DB_PASSWD" value="topsecret" />
-		<var name="DB_DBNAME" value="database_name" />
-	</php>
-
 	<logging>
+		<log type="coverage-text"   target="php://stdout" showUncoveredFiles="true" />
 		<log type="coverage-clover" target="var/build/logs/clover.xml"/>
 		<log type="coverage-html"   target="var/build/logs/html/"/>
-		<log type="coverage-text"   target="php://stdout" showUncoveredFiles="true" />
 		<log type="testdox-html"    target="var/build/logs/testdox.html"/>
 		<log type="testdox-text"    target="var/build/logs/testdox.txt"/>
 	</logging>

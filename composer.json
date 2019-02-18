@@ -29,7 +29,7 @@
 
     "require-dev": {
         "php-coveralls/php-coveralls": "^2.0",
-        "phpunit/phpunit": "^5.7|^6.0|^7.0",
+        "phpunit/phpunit": "^5.7|^6.0",
         "pimple/pimple": "^3.2"
     },
 
