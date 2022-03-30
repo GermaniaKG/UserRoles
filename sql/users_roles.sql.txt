@@ -7,3 +7,10 @@ CREATE TABLE `users_roles_mm` (
   KEY `index_user_id` (`client_id`),
   KEY `index_usergroup` (`role_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `roles` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `usergroup_short_name` varchar(255) DEFAULT NULL,
+  `usergroup_display_name` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
